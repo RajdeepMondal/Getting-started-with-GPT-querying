@@ -1,7 +1,7 @@
 # Getting-started-with-GPT-querying
 Install OpenAI and LlamaIndex for augmenting and running LLM queries.
 ```bash
-pip install openai llama-index llama-index-readers-web
+pip install openai llama-index llama-index-readers-web llama-index-embeddings-huggingface
 ```
 For running simple LLM queries on ChatGPT, you can use the following piece of code. Note that you need to generate an OpenAI API token for getting responses from GPT4:
 ```python
