@@ -135,4 +135,6 @@ print(response)
 
 # Once you have the contextual information from the RFCs, you can attach it to your
 # user-prompt and query the LLM using the code shown above.
+# This webiste contains a great tutorial on how to build a retriever engine from scratch
+# https://docs.llamaindex.ai/en/stable/examples/low_level/retrieval/
 ```
