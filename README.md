@@ -131,8 +131,7 @@ retriever = index.as_retriever()
 response = retriever.retrieve("A function that checks for request cancellation and rejection")
 
 # Let us print the context to see what was generated
-context = " ".join([node.dict()['node']['text'] for node in response.source_nodes])
-print(context)
+print(response)
 
 # Once you have the contextual information from the RFCs, you can attach it to your
 # user-prompt and query the LLM using the code shown above.
